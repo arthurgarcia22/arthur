@@ -18,12 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  scroll-behavior: smooth;
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgba(255, 0, 0, 0.1))
 }
 
 @layer utilities {
